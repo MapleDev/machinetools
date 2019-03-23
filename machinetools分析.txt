@@ -1,0 +1,186 @@
+
+Cookie: __stripe_mid=d25220e0-3c00-46f4-8242-f01eece66b1b; _ga=GA1.2.1698389194.1553131771; _gid=GA1.2.567369068.1553131771; _mt_suid=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqUTNPVFU0TXlJPSIsImV4cCI6IjIwMTktMDQtMjBUMDE6MzA6MjYuNTkwWiIsInB1ciI6bnVsbH19--24bc79a77fde6a5d02d589977d07ee807f1fa522; _mt_sutoken=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqVTJPV1UzTVdFd1pHUTFOMlZqTkdVMFpEaG1PRFl5WVdRM1pERmxNeUk9IiwiZXhwIjoiMjAxOS0wNC0yMFQwMTozMDoyNi41OTBaIiwicHVyIjpudWxsfX0%3D--e27af86764c87295d898331a5e8b3c9a420371b4; _mt_uat-v2=eyJfcmFpbHMiOnsibWVzc2FnZSI6IklqWTFaVFk0T1dGaU0yVmtZVGM1T1dZNE9UWTNNMlZrTXpGak1HSTJNamcxWmpFek1XUm1aVFEwTURRME5EWmpObUprWTJRd016TmlaVGd5T0RBM1pUVWkiLCJleHAiOiIyMDE5LTA2LTIxVDAxOjMwOjI2LjU5MFoiLCJwdXIiOm51bGx9fQ%3D%3D--c805dd144dfda6bb66c7e8337b1742ef2f581cd2; __stripe_sid=8e2647f0-f3a3-427e-a1e1-56bd3a4137f0; _gat_UA-1392039-4=1; breakpoint=medium; _mt_session=19%2FY7EOhOHYd4bixnIT24KTIc%2FjV%2FlVO71LyMTbzwjcx7NDxZ%2F%2FZiKIvZ8TP9a0ig7ZoKVOsomq9VKWT4cq5jG2UiAiyEK%2BYvrfumBV9fl361pf0f9lQW0zf08DDhYk1iO9bjbw7gcYAIuOEzjc%3D--kn7tdCfnwx3R0FZE--K97CL2qU6e%2BA0cNh8Kujdw%3D%3D
+
+列表页 page [1...50]
+https://www.machinetools.com/zh-CN/distributors/machines?_page_size=200&page=1
+
+
+ <tbody>
+    <tr class="companies-Row">
+        <td>
+            <div class="map-marker-indicator" title="在地图上显示">
+                <span>
+                    <a data-map-pin-focus="1" href="#">1</a>
+                </span>
+            </div>
+        </td>
+        <td>
+            <div class="field-value-display trimmed show-for-small-only">
+                <div class="field">
+                    <div class="value">
+                        <a class="btr-support-link underline-hover" href="/zh-CN/distributors/156993-10x-ltd">10X Ltd.</a>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="value location">Sofia, 保加利亚</div>
+                </div>
+                <div class="field">
+                    <div class="label">公司主要业务</div>
+                    <div class="value">
+                        <ul class="specialties">
+                            <li>新机床经销商/进出口公司/销售代理</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="show-for-medium">
+                <ul class="details">
+                    <li class="name">
+                        <b>
+                            <a class="btr-support-link underline-hover" href="/zh-CN/distributors/156993-10x-ltd">10X Ltd.</a>
+                        </b>
+                    </li>
+                </ul>
+                <ul class="specialties">
+                    <li>新机床经销商/进出口公司/销售代理</li>
+                </ul>
+            </div>
+        </td>
+        <td class="show-for-medium">
+            <div class="no-wrap">Sofia</div>
+            <div class="no-wrap">保加利亚</div>
+        </td>
+    </tr>
+</tbody>
+
+
+详细页
+https://www.machinetools.com/zh-CN/companies/140176-yaxing-precision-hong-kong-co-dot-ltd
+
+<div class="medium-8 columns">
+    <div class="show-for-medium">
+        <div class="listing-details">
+            <div class="field-value-display">
+                <div class="field">
+                    <div class="label">公司</div>
+                    <div class="value">广州义同机械实业有限公司</div>
+                </div>
+                <div class="field">
+                    <div class="label">地址</div>
+                    <div class="value">花都区新华工业园毕村北路自编24号
+                        <br />广州市, 广东省 510800
+                        <br />中国
+                        <br />
+                        <a class="eleven underline-hover" target="_blank" rel="nofollow" href="http://www.timeanddate.com/worldclock/@23.40427,113.22019?utm_campaign=referral&amp;utm_medium=site&amp;utm_source=machinetools.com">查看当地时间</a>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="label">电话</div>
+                    <div class="value">+86-208-690-9380</div>
+                </div>
+                <div class="field">
+                    <div class="label">免费电话</div>
+                    <div class="value">+86-1382-449-1168</div>
+                </div>
+                <div class="field">
+                    <div class="label">传真</div>
+                    <div class="value">+86-208-697-0951</div>
+                </div>
+                <div class="field company_311681_website_info">
+                    <div class="label">网址</div>
+                    <div class="value">
+                        <a rel="nofollow" id="tid-website-request" class="ajax-response underline-hover" data-remote="true" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/website_request">查看网址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="show-for-medium">
+                <a rel="nofollow" class="button contact-button strong expanded revealAjax" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/contact?title=%E8%81%94%E7%B3%BB%E8%AF%A5%E5%85%AC%E5%8F%B8">联系该公司</a>
+            </div>
+        </div>
+        <div class="show-for-small-only">
+            <a rel="nofollow" class="button contact-button strong expanded revealAjax" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/contact?title=%E8%81%94%E7%B3%BB%E8%AF%A5%E5%85%AC%E5%8F%B8">联系该公司</a>
+        </div>
+    </div>
+    <section class="content-divisor section-margin">
+        <h2>简介</h2>
+        <div class="text-block">
+            <p>義同数控近十载专注于高品质模具加工机床、机械加工专用机床设备的研发、生产、销售、服务，现有加工中心机、数控龙门、数控铣床、钻攻中心、数控雕铣机、数控车床、电火花机床、高速转塔铣床、精密平面磨床九大系列产品。公司已导入质量管理国际化标准，以优异的品质和完整的服务成为行业最畅销最具竟争力产品。</p>
+        </div>
+    </section>
+    <ul class="accordion section-margin-for-medium" data-accordion="" data-allow-all-closed="true" data-multi-expand="true">
+        <li class="accordion-item is-active" data-accordion-item="">
+            <a class="structured-link  accordion-title " href="#industry-types">
+                <span>公司类型</span>
+            </a>
+            <div class="accordion-content subtext" data-tab-content="" id="industry-types">
+                <ul class="types">
+                    <li>机械制造 / 原始设备制造商</li>
+                    <li>技术维护</li>
+                    <li>新机床经销商/进出口公司/销售代理</li>
+                    <li>专用机床制造商</li>
+                </ul>
+            </div>
+        </li>
+        <li class="accordion-item" data-accordion-item="">
+            <a class="structured-link  accordion-title " href="#brands">
+                <span>我们代理的品牌</span>
+            </a>
+            <div class="accordion-content subtext" data-tab-content="" id="brands">
+                <ul class="brands">
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/brands/yitong">义同</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="accordion-item" data-accordion-item="">
+            <a class="structured-link  accordion-title " href="#types">
+                <span>类型</span>
+            </a>
+            <div class="accordion-content subtext" data-tab-content="" id="types">
+                <ul class="product-lines">
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1109">CNC 车床</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1525">床身铣床</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1252">电火花成形机床</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1111">雕刻机</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1229">立式加工中心</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1121">立式铣床</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1424">龙门加工中心(包括桥梁和双立柱)</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1154">平面磨床(矩台)</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1126">枪钻</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1362">深孔钻床</a>
+                    </li>
+                    <li>
+                        <a class="underline-hover" href="/zh-CN/companies/311681-guangzhou-yi-tong-machinery-industrial-co-dot-ltd/models?type=1276">钻孔攻丝加工中心</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <div class="report-wrong-info">
+        <a rel="nofollow" class="revealAjax" href="/zh-CN/report_error">如发现此公司的信息有误，请报告给我们。</a>
+    </div>
+</div>
+
+
+查看电话号码页
+https://www.machinetools.com/zh-CN/companies/207838-3c-metrology-sa-de-cv/phone_request?recipient_type=new_machinery
