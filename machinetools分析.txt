@@ -4,6 +4,8 @@ Cookie: __stripe_mid=d25220e0-3c00-46f4-8242-f01eece66b1b; _ga=GA1.2.1698389194.
 列表页 page [1...50]
 https://www.machinetools.com/zh-CN/distributors/machines?_page_size=200&page=1
 
+https://www.machinetools.com/zh-CN/distributors/machines?brand_type_id=&sort_col=location&sort_dir=asc&utf8=%E2%9C%93&_page_size=200&brand_category_id=1022
+
 
  <tbody>
     <tr class="companies-Row">

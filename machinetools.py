@@ -6,11 +6,16 @@ import requests
 import webbrowser
 import xlwt
 
+# 修改这里
+brand_category_id = 1022
+startPage = 1
+
 baseUrl = "https://www.machinetools.com"
 
 # 列表页 page [1...50]
 # listUrl = "https://www.machinetools.com/zh-CN/distributors/machines?_page_size=200&page=%s"
-listUrl = baseUrl + "/zh-CN/distributors/machines?_page_size=200&page=%s"
+# listUrl = baseUrl + "/zh-CN/distributors/machines?_page_size=200&page=%s"
+listUrl = baseUrl + "/zh-CN/distributors/machines?brand_type_id=&sort_col=location&sort_dir=asc&_page_size=200&brand_category_id=%s&page=%s"
 # for test
 # listUrl = baseUrl + "/zh-CN/distributors/machines?_page_size=1&page=%s"
 # listUrl = baseUrl + "/zh-CN/distributors/machines?_page_size=10000&page=%s"
@@ -35,19 +40,17 @@ sh.write(0, 3, '免费电话')
 sh.write(0, 4, '传真')
 sh.write(0, 5, '网址')
 sh.write(0, 6, '简介')
-sh.write(0, 7, '类型')
+sh.write(0, 7, '公司类型')
 sh.write(0, 8, '代理品牌')
-sh.write(0, 9, '详情页')
+sh.write(0, 9, '类型')
+sh.write(0, 10, '详情页')
 
 col = 1
-
-# 修改这里
-startPage = 12
 for page in range(startPage, 51):
 # for page in range(1, 2):
 	print('------- start page: ' + str(page) + '-------')
 
-	listUrlCompete = listUrl % (page)
+	listUrlCompete = listUrl % (brand_category_id, page)
 	print(str(page) + ": 列表页 listUrlCompete = " + listUrlCompete)
 	html = urlopen(listUrlCompete).read().decode('utf-8')
 
@@ -153,8 +156,10 @@ for page in range(startPage, 51):
 				sh.write(col, 7, valueText)
 			elif fieldText == '我们代理的品牌':
 				sh.write(col, 8, valueText)
+			elif fieldText == '类型':
+				sh.write(col, 9, valueText)
 
-		sh.write(col, 9, detailUrl)
+		sh.write(col, 10, detailUrl)
 
 		# wb.save('machinetools.xls')
 		print('------- end col: ' + str(col) + '-------')
@@ -165,7 +170,7 @@ for page in range(startPage, 51):
 
 
 	print('------- end page: ' + str(page) + '-------')
-	wb.save('machinetools_' + str(page) + '.xls')
+	wb.save('machinetools_category' + str(brand_category_id) + '_page' + str(page) + '.xls')
 
 
 txt.close()
