@@ -6,8 +6,14 @@ import requests
 import webbrowser
 import xlwt
 
+# 冲床 id=1027
+# 剪切设备 id=1029
+# 压力机 id=1037
+# 折弯成型设备  id=1022
+categoryDict = {1027: '冲床', 1029: '剪切设备', 1037: '压力机', 1022: '折弯成型设备'}
+categoryList = list(categoryDict.keys())
 # 修改这里
-brand_category_id = 1022
+brand_category_id = categoryList[0]
 startPage = 1
 
 baseUrl = "https://www.machinetools.com"
@@ -28,6 +34,9 @@ phoneRequestUrlTempl = baseUrl + "/zh-CN/companies/%s/phone_request"
 websiteRequestUrlTempl = baseUrl + "/zh-CN/companies/%s/website_request"
 
 txt = open(r'out.txt', 'w+', encoding='utf-8')
+
+# for key in categoryDict:
+	# brand_category_id = key
 
 # 创建 xls 文件对象
 wb = xlwt.Workbook()
@@ -65,8 +74,10 @@ for page in range(startPage, 51):
 	# month = soup.find_all('li', {"class": "month"})
 	all_div = soup.find_all('div', {"class": "field-value-display trimmed show-for-small-only"})
 	# print('all_div = ', all_div)
+	flagInAllDiv = False
 	for div in all_div:
 		print('------- start col: ' + str(col) + '-------')
+		flagInAllDiv = True
 
 		# div = div.get_text()
 
@@ -165,12 +176,12 @@ for page in range(startPage, 51):
 		print('------- end col: ' + str(col) + '-------')
 		col = col + 1
 		# txt.write(str(fieldValueDisplayDiv) + "\n")
-			
 		# ===================================
 
 
 	print('------- end page: ' + str(page) + '-------')
-	wb.save('machinetools_category' + str(brand_category_id) + '_page' + str(page) + '.xls')
+	if (flagInAllDiv):
+		wb.save('machinetools_category' + categoryDict[brand_category_id] + '_page' + str(page) + '.xls')
 
 
 txt.close()
